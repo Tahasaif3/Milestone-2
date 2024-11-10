@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import '../../styles/Courses.module.css'
 
 const courses = [
@@ -52,7 +51,6 @@ export default function Courses() {
               <li><strong>Duration:</strong> {course.duration}</li>
               <li><strong>Level:</strong> {course.level}</li>
             </ul>
-            <Link href={`/courses/${course.id}`} className="btn">View Details</Link>
           </div>
         ))}
       </div>

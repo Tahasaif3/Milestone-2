@@ -1,0 +1,51 @@
+.course-details {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .course-details .description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+  }
+  
+  .course-info {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .course-info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .syllabus h2, .prerequisites h2 {
+    font-size: 1.8rem;
+    color: #1a73e8;
+    margin-bottom: 1rem;
+  }
+  
+  .syllabus ul {
+    list-style-type: none;
+    padding-left: 1rem;
+  }
+  
+  .syllabus ul li {
+    margin-bottom: 0.5rem;
+    position: relative;
+  }
+  
+  .syllabus ul li::before {
+    content: "•";
+    color: #1a73e8;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  .prerequisites p {
+    color: #666;
+  }

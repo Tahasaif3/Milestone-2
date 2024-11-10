@@ -1,4 +1,4 @@
-import '../../styles/Contact.module.css'
+import '../../styles/Contact.module.css';
 
 export default function Contact() {
   return (
@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="contact-container">
         <div className="contact-info">
           <h2>Get in Touch</h2>
-<p>We'd love to hear from you! Whether you have a question about our courses, admissions, or anything else, our team is ready to answer all your questions.</p>
+          <p>We&apos;d love to hear from you! Whether you have a question about our courses, admissions, or anything else, our team is ready to answer all your questions.</p>
           <ul>
             <li>Email: info@smithyderabad.edu</li>
             <li>Phone: +91 123 456 7890</li>
@@ -36,5 +36,5 @@ export default function Contact() {
         </form>
       </div>
     </div>
-  )
+  );
 }

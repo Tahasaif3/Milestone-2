@@ -57,11 +57,12 @@ const courses = {
   }
 }
 
+// Corrected component to handle params correctly in Next.js app directory
 export default function CourseDetails({ params }: { params: { id: string } }) {
-  const course = courses[params.id as keyof typeof courses]
+  const course = courses[params.id as keyof typeof courses];
 
   if (!course) {
-    return <div>Course not found</div>
+    return <div>Course not found</div>;
   }
 
   return (
@@ -86,5 +87,5 @@ export default function CourseDetails({ params }: { params: { id: string } }) {
         <p>{course.prerequisites}</p>
       </div>
     </div>
-  )
+  );
 }
